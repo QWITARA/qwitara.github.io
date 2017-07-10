@@ -1,11 +1,13 @@
 .wrapper {
   max-width: 1170px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .pict {
   display: inline-block;
   width: 30%;
-  margin-right: 20px;
+  margin-right: 3%;
+  height: 200px;
+  overflow: hidden;
 }
 .pict img {
   width: 100%;
