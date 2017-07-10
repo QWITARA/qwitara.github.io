@@ -76,7 +76,7 @@ h1 {
     border-radius: 0 0 2px 2px;
     padding: 5px 0;
 }
-.pict:hover .pict-hover-text {
+.pict:hover .pict-hover-text div{
     opacity: 1;
     -webkit-filter: none;
     filter: none;
