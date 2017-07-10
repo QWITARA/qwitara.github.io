@@ -1,6 +1,9 @@
 * {
   font-family: Arial;
 }
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
 h1 {
   color: #015ca3;
 }
