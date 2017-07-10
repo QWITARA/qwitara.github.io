@@ -48,7 +48,6 @@ h1 {
     width: auto;
     z-index: 10;
     word-wrap: break-word;
-    font-size: 1em;
     transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s linear;
