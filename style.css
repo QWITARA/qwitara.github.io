@@ -16,7 +16,7 @@ h1 {
   height: 250px;
   overflow: hidden;
 }
-.pict:before {
+/*.pict:before {
     position: absolute;
     content: '';
     top: 0;
@@ -56,6 +56,31 @@ h1 {
 .pict:hover .pict-hover-text {
     opacity: 1;
     line-height: 30px;
+}*/
+.pict-hover-text {
+    height: 79px;
+    margin-top: -81px;
+  position: relative;
+    overflow: hidden;
+    width: 200px;
+    margin: -58px 0 2px;
+}
+.pict-hover-text div {
+    color: #fff;
+    opacity: 0;
+    background-color: rgba(29,32,34,.7);
+    width: 200px;
+    margin-top: 40px;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    border-radius: 0 0 2px 2px;
+    padding: 5px 0;
+}
+.pict:hover .pict-hover-text {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none;
+    margin-top: 0;
 }
 .pict img {
   width: 100%;
