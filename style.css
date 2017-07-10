@@ -4,9 +4,9 @@
 }
 .pict {
   display: inline-block;
-  width: 30%;
+  width: 29%;
   margin-right: 3%;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
 }
 .pict img {
