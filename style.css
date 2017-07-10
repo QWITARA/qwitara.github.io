@@ -4,10 +4,52 @@
 }
 .pict {
   display: inline-block;
+  position: relative;
   width: 29%;
   margin-right: 3%;
   height: 250px;
   overflow: hidden;
+}
+.pict:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #4b89bf;
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+}
+.pict:hover:before {
+    opacity: 0.7;
+}
+.pict .pict-hover-text {
+    line-height: 0px;
+    color: transparent;
+    opacity: 0;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    word-break: normal;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    width: auto;
+    z-index: 10;
+    word-wrap: break-word;
+    font-size: 1.2em;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+.pict:hover .pict-hover-text {
+    opacity: 1;
+    line-height: 30px;
 }
 .pict img {
   width: 100%;
