@@ -7,3 +7,7 @@
   width: 30%;
   margin-right: 20px;
 }
+.pict img {
+  width: 100%;
+  height: auto;
+}
